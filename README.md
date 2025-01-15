@@ -8,3 +8,5 @@ LLAMA2 Model Integration: Powered by Ollama’s LLAMA3.2 for local inference.
 LangChain Prompt Templates: Uses LangChain to structure and process conversational prompts.
 Customizable Environment: Configure LangChain and OpenAI integration using environment variables.
 
+
+
