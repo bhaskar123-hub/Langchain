@@ -8,7 +8,7 @@ Features ✨
 
 Interactive Web Interface: Built with Streamlit for a seamless user experience.
 
-LLAMA2 Model Integration: Powered by Ollama’s LLAMA3.2 for local inference.
+LLAMA3 Model Integration: Powered by Ollama’s LLAMA3.2 for local inference.
 
 LangChain Prompt Templates: Uses LangChain to structure and process conversational prompts.
 
