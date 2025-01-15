@@ -14,6 +14,10 @@ LangChain Prompt Templates: Uses LangChain to structure and process conversation
 
 Customizable Environment: Configure LangChain and OpenAI integration using environment variables.
 
+![image](https://github.com/user-attachments/assets/a652b1a0-1db0-43e0-b0d0-ebf280e04727)
+
+![image](https://github.com/user-attachments/assets/322978f2-722d-4b30-a018-a71da0675e25)
+
 
 
 
