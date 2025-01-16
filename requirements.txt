@@ -1,0 +1,13 @@
+langchain-core
+langchain
+langchain-ollama
+langchain_community
+langchain-openai
+langchain-groq
+langchain-objectbox
+streamlit
+fastapi
+uvicorn
+sse_starlette
+beautifulsoup4
+requests
