@@ -3,7 +3,7 @@ import os  # For interacting with the operating system (environment variables)
 import streamlit as st  # Streamlit is used to create interactive web applications
 from langchain.prompts import ChatPromptTemplate  # Importing the ChatPromptTemplate for prompt generation
 from langchain_openai import ChatOpenAI  # Importing the OpenAI-specific LLM integration
-from langchain_community.llms import Ollama  # Importing the Ollama LLM integration for local models
+from langchain_ollama import OllamaLLM   # Importing the Ollama LLM integration for local models
 
 # Set environment variables for Langsmith and OpenAI API keys
 # These environment variables are used to enable Langsmith tracing and set up the LangChain API integration
@@ -31,7 +31,7 @@ input_text = st.text_input("Search the topic you want")  # User will enter the q
 
 # Ollama model integration with LangChain
 # This loads the Llama model from Ollama's local system for use in the LangChain pipeline
-llm = Ollama(model="llama3.2")  # Make sure you are using the correct model identifier ("llama3.2")
+llm = OllamaLLM(model="llama3.2")  # Make sure you are using the correct model identifier ("llama3.2")
 
 # Building the LangChain processing chain:
 # The prompt and the LLM are combined to form the pipeline. 
